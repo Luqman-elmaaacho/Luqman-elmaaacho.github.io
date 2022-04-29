@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  /* font-size: 16px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* .container {
+  border: 2px solid black;
+  height: 100vh;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+    "a a a a a a"
+    "a a a a a a"
+    "b b b b b c"
+    "b b b b b c"
+    "d d d d d d";
+} */
+/* .header {
+  grid-area: a;
+  color: rgba(0, 0, 0, 0.512);
+  border: 1px solid rgba(0, 0, 0, 0.144);
+  padding: 10px;
+  margin: 5px;
+} */
+/* .article {
+  grid-area: b;
+  border: 1px solid blue;
+  text-align: left;
+  padding-left: 25px;
+  margin-top: 30px;
+} */
+.aside {
+  grid-area: c;
+  border-left: 1px solid rgba(0, 0, 0, 0.144);
+  border-top: 1px solid rgba(0, 0, 0, 0.144);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+  margin-top: 30px;
+}
+.footer {
+  grid-area: d;
+  border: 1px solid rgba(0, 0, 0, 0.144);
+}
+/* @media screen and (max-width: 576px) {
+  .container {
+    /* border: 2px solid black; */
+    /* height: 100vh;
+    display: grid;
+    grid-template-areas:
+      "a a a a"
+      "b b b b"
+      "c c c c"
+      "d d d d";
+  } */
+/* } */ 
+table {
+  padding: 15px;
+  border: 1px solid black;
+  background-color: rgba(255, 228, 196, 0.082);
+  border-radius: 10%;
+  margin-left: 20px;
+  width: 37%;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-transform: capitalize;
+}
+tr:nth-child(1) {
+  background-color: rgba(141, 187, 170, 0.236);
+  height: 30px;
+  padding: 3px;
+}
+td,
+th {
+  border: 1px solid grey;
+  width: 70px;
+  height: 30px;
+  padding: 3px;
+}
+ol li {
+  list-style-type: decimal;
+}
+h3 {
+  text-decoration: underline;
+  font-weight: lighter;
+}
+/* #para1 {
+  text-indent: 40px;
+  word-spacing: 4px;
+  line-height: 25px;
+  font-size: 16px;
+} */
+.aplg {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 30px;
+}
+.aplg h2{
+  text-align: center;
+}
+/* nav links start */
+/* ul li {
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.795);
+  font-size: 20px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav {
+  width: 60%;
+  position: relative;
+  left: 50%;
+} */
+/* nav links end */
